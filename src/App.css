@@ -41,10 +41,24 @@
   margin-right: 10px;
   background-color: rgb(77, 77, 243);
   color: white;
+  padding: 8px;
+  border-radius: 8px;
 }
 
-.jsQR {
+.qr-scanner {
   margin-right: 10px;
   background-color: rgb(200, 95, 232);
   color: white;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.html5-qrcode:hover,
+.qr-scanner:hover{
+  color: white;
+  opacity: 0.8;
+}
+.start-btn,
+.stop-btn{
+  display: block;
 }
