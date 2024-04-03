@@ -33,7 +33,10 @@ const Html5qrcode = () => {
 
   return (
     <div>
-      <h2>Html5qrcode</h2>
+      <h2>Html5qrcodeのHtml5QrcodeScannerクラス</h2>
+      <p className='html5-desc'>
+        Html5QrcodeScanner: これは、QR コード スキャン用の完全なユーザー インターフェイス (UI) を提供するように設計されたクラスです。
+      </p>
       <div id="qr-reader" ref={qrRef}></div>
       <p>Result: {data}</p>
     </div>
