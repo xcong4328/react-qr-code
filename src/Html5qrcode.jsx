@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Html5QrcodeScanner } from 'html5-qrcode';
 
-const QrReaderPage = () => {
+const Html5qrcode = () => {
   const [data, setData] = useState('No result');
   const qrRef = useRef(null);
 
@@ -33,11 +33,11 @@ const QrReaderPage = () => {
 
   return (
     <div>
-      <h2>Scan QR Code</h2>
+      <h2>Html5qrcode</h2>
       <div id="qr-reader" ref={qrRef}></div>
       <p>Result: {data}</p>
     </div>
   );
 };
 
-export default QrReaderPage;
+export default Html5qrcode;

@@ -6,10 +6,11 @@ const JsqrPage = () => {
     const canvasRef = useRef(null);
     const [isScanning, setIsScanning] = useState(false);
     const [result, setResult] = useState('No result');
+    const [facingMode, setFacingMode] = useState("environment"); // Select back or front camera
 
     const startScanning = () => {
       setIsScanning(true);
-      navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } })
+      navigator.mediaDevices.getUserMedia({ video: { facingMode } })
           .then(stream => {
               videoRef.current.srcObject = stream;
               videoRef.current.oncanplay = () => {
@@ -45,7 +46,7 @@ const JsqrPage = () => {
         requestAnimationFrame(scanQR);
       }
     };
-    
+
     const stopScanning = () => {
       if (videoRef.current && videoRef.current.srcObject) {
           videoRef.current.srcObject.getTracks().forEach(track => track.stop());
@@ -53,18 +54,22 @@ const JsqrPage = () => {
       }
       setIsScanning(false);
     };
-    
+
     useEffect(() => {
         return () => stopScanning();
     }, []);
 
     return (
         <div>
-            <h2>jsQr Scanner</h2>
+            <h2>jsQR Scanner</h2>
+            <select value={facingMode} onChange={(e) => setFacingMode(e.target.value)}>
+                <option value="environment">Back Camera</option>
+                <option value="user">Front Camera</option>
+            </select>
             {!isScanning && <button onClick={startScanning}>Start Scanning</button>}
             {isScanning && <button onClick={stopScanning}>Stop Scanning</button>}
             <p>Result: {result}</p>
-            <video ref={videoRef} style={{ display: isScanning ? 'block' : 'none', width: '500px', height: '500px' }}></video>
+            <video ref={videoRef} autoPlay playsInline muted style={{ display: isScanning ? 'block' : 'none', width: '100%', height: 'auto' }}></video>
             <canvas ref={canvasRef} style={{ display: 'none' }}></canvas>
         </div>
     );

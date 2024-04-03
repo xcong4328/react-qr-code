@@ -52,9 +52,16 @@
   padding: 8px;
   border-radius: 8px;
 }
-
+.jsqr {
+  margin-right: 10px;
+  background-color: rgb(123, 99, 21);
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+}
 .html5-qrcode:hover,
-.qr-scanner:hover{
+.qr-scanner:hover,
+.jsqr:hover{
   color: white;
   opacity: 0.8;
 }

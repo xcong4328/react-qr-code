@@ -1,6 +1,6 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import { useState } from 'react';
-import QrReaderPage from './QrReaderPage';
+import Html5qrcode from './Html5qrcode';
 import QrScannerPage from './QrScannerPage';
 import JsqrPage from './JsqrPage.jsx';
 import reactLogo from './assets/react.svg';
@@ -16,14 +16,14 @@ function App() {
         </Link>
       </div>
       <p>
-        Select QR Code Scanner 1
+        Select QR Code Scanner
       </p>
       <Link className='html5-qrcode' to="/html5-qrcode">html5-qrcode</Link>
       <Link className='qr-scanner' to="/qr-scanner ">qr-scanner</Link>
-      <Link className='jsqr' to="/jsqr ">jsqr scanner</Link>
+      <Link className='jsqr' to="/jsqr ">jsQR</Link>
 
       <Routes>
-        <Route path="/html5-qrcode" element={<QrReaderPage />} />
+        <Route path="/html5-qrcode" element={<Html5qrcode />} />
         <Route path="/qr-scanner" element={<QrScannerPage />} />
         <Route path="/jsqr" element={<JsqrPage />} />
       </Routes>
