@@ -226,7 +226,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-6" value="Github" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
-          <mxGeometry x="601" y="1165" width="75" height="75" as="geometry" />
+          <mxGeometry x="601" y="1157" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zx6dYSFP0FjN7kiB9qOy-7" target="zx6dYSFP0FjN7kiB9qOy-8">
           <mxGeometry relative="1" as="geometry">
@@ -248,7 +248,7 @@
           <mxGeometry x="724" y="1139" width="304" height="41" as="geometry" />
         </mxCell>
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-19" value="GitHubの活動（コメントやプルリクエスト）がSlackに通知されます。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="432.5" y="1271" width="395" height="26" as="geometry" />
+          <mxGeometry x="441" y="1270" width="395" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-21" value="クラウド環境からのエラー通知がSlackに送信されます。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="722" y="1319" width="322" height="26" as="geometry" />
