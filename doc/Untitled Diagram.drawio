@@ -313,6 +313,15 @@
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-48" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;GitHubの活動（コメントやプルリクエスト）が&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Slackに通知されます。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="683.5" y="1672" width="271" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="zx6dYSFP0FjN7kiB9qOy-51" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="132" y="1665" width="371" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="zx6dYSFP0FjN7kiB9qOy-53" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="129" y="1676" width="371" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="zx6dYSFP0FjN7kiB9qOy-54" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;開発者からCDKツールで&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;コードをクラウドへプッシュ&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="119.5" y="1673" width="371" height="23" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
