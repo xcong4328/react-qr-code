@@ -415,8 +415,8 @@
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-282" value="Slack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-166.36999999999978" y="378" width="66.74" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="zx6dYSFP0FjN7kiB9qOy-284" value="Slackはチーム間の通信ツールとして使用され、CI/CDからの通知やシステムエラーのアラートをWebhookを通じて受け取ります。" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-766.9993922642299" y="128.997174333845" width="550" height="51" as="geometry" />
+        <mxCell id="zx6dYSFP0FjN7kiB9qOy-284" value="Slackはチーム間の通信ツールとして使用され、CI/CDからの通知や&#xa;システムエラーのアラートをWebhookを通じて受け取ります。" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-695.9993922642299" y="147.997174333845" width="550" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
