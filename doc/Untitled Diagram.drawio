@@ -394,7 +394,7 @@
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zx6dYSFP0FjN7kiB9qOy-227" target="zx6dYSFP0FjN7kiB9qOy-213">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zx6dYSFP0FjN7kiB9qOy-275" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
+        <mxCell id="zx6dYSFP0FjN7kiB9qOy-275" value="Github" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
           <mxGeometry x="-170.5" y="736.8199999999999" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zx6dYSFP0FjN7kiB9qOy-277" target="zx6dYSFP0FjN7kiB9qOy-275">
@@ -408,6 +408,15 @@
         </mxCell>
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-279" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Slack_colored_svg-128.png" vertex="1" parent="1">
           <mxGeometry x="-190" y="255" width="114" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="zx6dYSFP0FjN7kiB9qOy-282" value="Slack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-166.36999999999978" y="378" width="66.74" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="zx6dYSFP0FjN7kiB9qOy-284" value="Slackはチーム間の通信ツールとして使用され、CI/CDからの通知やシステムエラーのアラートをWebhookを通じて受け取ります。" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-766.9993922642299" y="128.997174333845" width="550" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="zx6dYSFP0FjN7kiB9qOy-285" value="CI/CDはコードがマージされた後、&#xa;自動的にサーバーにデプロイします。" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-213" y="832" width="222" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
