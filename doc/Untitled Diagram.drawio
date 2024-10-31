@@ -397,7 +397,7 @@
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zx6dYSFP0FjN7kiB9qOy-227" target="zx6dYSFP0FjN7kiB9qOy-213">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zx6dYSFP0FjN7kiB9qOy-275" value="Github" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
+        <mxCell id="zx6dYSFP0FjN7kiB9qOy-275" value="Github&lt;div&gt;管理ツールサービス&lt;/div&gt;" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
           <mxGeometry x="-170.5" y="736.8199999999999" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zx6dYSFP0FjN7kiB9qOy-277" target="zx6dYSFP0FjN7kiB9qOy-275">
