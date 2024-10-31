@@ -222,7 +222,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-7" value="AWS Cloud" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.aws_cloud;" vertex="1" parent="1">
-          <mxGeometry x="770" y="1211" width="60" height="60" as="geometry" />
+          <mxGeometry x="630" y="1200" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Slack_colored_svg-128.png" vertex="1" parent="1">
           <mxGeometry x="476" y="1350" width="90" height="90" as="geometry" />
