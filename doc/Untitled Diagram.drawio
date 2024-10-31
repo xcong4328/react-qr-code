@@ -262,14 +262,6 @@
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zx6dYSFP0FjN7kiB9qOy-26" target="zx6dYSFP0FjN7kiB9qOy-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zx6dYSFP0FjN7kiB9qOy-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zx6dYSFP0FjN7kiB9qOy-31" target="zx6dYSFP0FjN7kiB9qOy-36">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="302.5" y="1763" />
-              <mxPoint x="301.5" y="1778" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zx6dYSFP0FjN7kiB9qOy-31" target="zx6dYSFP0FjN7kiB9qOy-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -298,8 +290,8 @@
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-37" value="開発者が新規作成や更新コードを&lt;div&gt;バージョン管理サービスGitHubへ&lt;span style=&quot;background-color: initial;&quot;&gt;アップロード&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="341" y="1527" width="270" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="zx6dYSFP0FjN7kiB9qOy-40" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;クラウド環境からのエラー通知がSlackに送信されます。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="383" y="1779" width="371" height="23" as="geometry" />
+        <mxCell id="zx6dYSFP0FjN7kiB9qOy-40" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;クラウド環境からのエラー&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;通知がSlackに送信されます。&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615.5" y="1735" width="137" height="23" as="geometry" />
         </mxCell>
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zx6dYSFP0FjN7kiB9qOy-33" target="zx6dYSFP0FjN7kiB9qOy-36">
           <mxGeometry relative="1" as="geometry">
@@ -310,7 +302,7 @@
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-42" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=none;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="916" y="1721" width="371" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="zx6dYSFP0FjN7kiB9qOy-48" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;GitHubの活動（コメントやプルリクエスト）が&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Slackに通知されます。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+        <mxCell id="zx6dYSFP0FjN7kiB9qOy-48" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;GitHubの活動（コメントやプルリクエスト）が&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Slackに通知されます&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="683.5" y="1672" width="271" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-51" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=none;" vertex="1" parent="1">
@@ -321,6 +313,12 @@
         </mxCell>
         <mxCell id="zx6dYSFP0FjN7kiB9qOy-54" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;開発者からCDKツールで&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;コードをクラウドへプッシュ&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="119.5" y="1673" width="371" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="zx6dYSFP0FjN7kiB9qOy-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zx6dYSFP0FjN7kiB9qOy-36" target="zx6dYSFP0FjN7kiB9qOy-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zx6dYSFP0FjN7kiB9qOy-56" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;GitHubの活動や&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;ステムに問題が発生した場合に、即座にチームに警告するための通知&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="344" y="1897" width="371" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
